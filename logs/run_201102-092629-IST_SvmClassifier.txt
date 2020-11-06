@@ -1,0 +1,91 @@
+SvmClassifier
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  0.5
+######################
+unimplemented
+None
+######################
+Accuracy : 0.5
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>1 |
+4 | .<1>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  0.5
+######################
+unimplemented
+None
+######################
+Accuracy : 0.5
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>1 |
+4 | .<1>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  1.0
+######################
+unimplemented
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+  | 4 |
+--+---+
+4 |<2>|
+--+---+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  1.0
+######################
+unimplemented
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+  | 4 |
+--+---+
+4 |<2>|
+--+---+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  SvmClassifier
+Accuracy :  0.0
+######################
+unimplemented
+None
+######################
+Accuracy : 0.0
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>2 |
+4 | .<.>|
+--+-----+
+(row = reference; col = test)
+
+Accuracies: [0.5, 0.5, 1.0, 1.0, 0.0]
+Average Accuracy: 0.6

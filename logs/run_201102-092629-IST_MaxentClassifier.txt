@@ -1,0 +1,658 @@
+MaxentClassifier
+length of train tweets 8
+length of test tweets 2
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.625
+             2          -0.64682        1.000
+             3          -0.60617        1.000
+             4          -0.57028        1.000
+             5          -0.53840        1.000
+             6          -0.50991        1.000
+             7          -0.48430        1.000
+             8          -0.46116        1.000
+             9          -0.44016        1.000
+         Final          -0.42101        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.5
+######################
+   0.048 neg_l(50th)==0.0 and label is 4
+   0.048 neg_l(follow)==0.0 and label is 4
+   0.048 neg_r(50th)==0.0 and label is 4
+   0.048 neg_r(follow)==0.0 and label is 4
+   0.048 has(50th)==1 and label is 4
+   0.048 has(follow)==1 and label is 4
+   0.047 neg_l(still)==0.0 and label is 0
+   0.047 neg_l(pour)==0.0 and label is 0
+   0.047 neg_l(outsid)==0.0 and label is 0
+   0.047 neg_r(still)==0.0 and label is 0
+   0.047 neg_r(pour)==0.0 and label is 0
+   0.047 neg_r(outsid)==0.0 and label is 0
+   0.047 has(still)==1 and label is 0
+   0.047 has(pour)==1 and label is 0
+   0.047 has(outsid)==1 and label is 0
+   0.045 neg_l(proud)==0.0 and label is 4
+   0.045 neg_l(best)==0.0 and label is 4
+   0.045 neg_l(friend)==0.0 and label is 4
+   0.045 neg_l(varsiti)==0.0 and label is 4
+   0.045 neg_r(proud)==0.0 and label is 4
+   0.045 neg_r(best)==0.0 and label is 4
+   0.045 neg_r(friend)==0.0 and label is 4
+   0.045 neg_r(varsiti)==0.0 and label is 4
+   0.045 has(proud)==1 and label is 4
+   0.045 has(best)==1 and label is 4
+   0.045 has(friend)==1 and label is 4
+   0.045 has(varsiti)==1 and label is 4
+   0.044 neg_l(pina)==0.0 and label is 4
+   0.044 neg_l(colada)==0.0 and label is 4
+   0.044 neg_l(good)==0.0 and label is 4
+   0.044 neg_l(for)==0.0 and label is 4
+   0.044 neg_l(sore)==0.0 and label is 4
+   0.044 neg_l(throat)==0.0 and label is 4
+   0.044 neg_r(pina)==0.0 and label is 4
+   0.044 neg_r(colada)==0.0 and label is 4
+   0.044 neg_r(sore)==0.0 and label is 4
+   0.044 neg_r(throat)==0.0 and label is 4
+   0.044 has(pina)==1 and label is 4
+   0.044 has(colada)==1 and label is 4
+   0.044 has(sore)==1 and label is 4
+   0.044 has(throat)==1 and label is 4
+   0.044 neg_l(hate)==0.0 and label is 0
+   0.044 neg_l(wierd)==0.0 and label is 0
+   0.044 neg_l(unknown)==0.0 and label is 0
+   0.044 neg_l(thing)==0.0 and label is 0
+   0.044 neg_l(move)==0.0 and label is 0
+   0.044 neg_l(around)==0.0 and label is 0
+   0.044 neg_l(night)==0.0 and label is 0
+   0.044 neg_r(hate)==0.0 and label is 0
+   0.044 neg_r(wierd)==0.0 and label is 0
+   0.044 neg_r(unknown)==0.0 and label is 0
+   0.044 neg_r(thing)==0.0 and label is 0
+   0.044 neg_r(move)==0.0 and label is 0
+   0.044 neg_r(around)==0.0 and label is 0
+   0.044 neg_r(night)==0.0 and label is 0
+   0.044 has(hate)==1 and label is 0
+   0.044 has(wierd)==1 and label is 0
+   0.044 has(unknown)==1 and label is 0
+   0.044 has(thing)==1 and label is 0
+   0.044 has(move)==1 and label is 0
+   0.044 has(around)==1 and label is 0
+   0.044 has(night)==1 and label is 0
+   0.044 neg_l(__hndl)==0.0 and label is 4
+   0.044 neg_r(__hndl)==0.0 and label is 4
+   0.044 has(__hndl)==1 and label is 4
+   0.039 neg_l(neb)==0.0 and label is 0
+   0.039 neg_l(treatment)==0.0 and label is 0
+   0.039 neg_l(number)==0.0 and label is 0
+   0.039 neg_l(thi)==0.0 and label is 0
+   0.039 neg_l(even)==0.0 and label is 0
+   0.039 neg_l(isnt)==1.0 and label is 0
+   0.039 neg_l(look)==0.9 and label is 0
+   0.039 neg_l(good)==0.8 and label is 0
+   0.039 neg_l(for)==0.7000000000000001 and label is 0
+   0.039 neg_l(zoie)==0.6000000000000001 and label is 0
+   0.039 neg_r(neb)==0.30000000000000016 and label is 0
+   0.039 neg_r(treatment)==0.40000000000000013 and label is 0
+   0.039 neg_r(number)==0.5000000000000001 and label is 0
+   0.039 neg_r(thi)==0.9 and label is 0
+   0.039 neg_r(even)==0.7000000000000001 and label is 0
+   0.039 neg_r(__punc_ellp)==0.8 and label is 0
+   0.039 neg_r(isnt)==1.0 and label is 0
+   0.039 neg_r(look)==0.0 and label is 0
+   0.039 neg_r(zoie)==0.0 and label is 0
+   0.039 has(neb)==1 and label is 0
+   0.039 has(treatment)==1 and label is 0
+   0.039 has(number)==1 and label is 0
+   0.039 has(thi)==1 and label is 0
+   0.039 has(even)==1 and label is 0
+   0.039 has(isnt)==1 and label is 0
+   0.039 has(look)==1 and label is 0
+   0.039 has(zoie)==1 and label is 0
+   0.039 neg_l(ohh)==0.0 and label is 4
+   0.039 neg_l(actual)==0.0 and label is 4
+   0.039 neg_l(sick)==0.0 and label is 4
+   0.039 neg_l(__punc_qu)==0.0 and label is 4
+   0.039 neg_l(that)==0.0 and label is 4
+   0.039 neg_l(sux)==0.0 and label is 4
+   0.039 neg_l(hope)==0.0 and label is 4
+   0.039 neg_l(feel)==0.0 and label is 4
+None
+######################
+Accuracy : 0.5
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>1 |
+4 | .<1>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.625
+             2          -0.64396        1.000
+             3          -0.60114        1.000
+             4          -0.56361        1.000
+             5          -0.53049        1.000
+             6          -0.50109        1.000
+             7          -0.47481        1.000
+             8          -0.45119        1.000
+             9          -0.42985        1.000
+         Final          -0.41048        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.0
+######################
+   0.048 neg_l(50th)==0.0 and label is 4
+   0.048 neg_l(follow)==0.0 and label is 4
+   0.048 neg_r(50th)==0.0 and label is 4
+   0.048 neg_r(follow)==0.0 and label is 4
+   0.048 has(50th)==1 and label is 4
+   0.048 has(follow)==1 and label is 4
+   0.046 neg_l(still)==0.0 and label is 0
+   0.046 neg_l(pour)==0.0 and label is 0
+   0.046 neg_l(outsid)==0.0 and label is 0
+   0.046 neg_r(__punc_ellp)==0.0 and label is 0
+   0.046 neg_r(still)==0.0 and label is 0
+   0.046 neg_r(pour)==0.0 and label is 0
+   0.046 neg_r(outsid)==0.0 and label is 0
+   0.046 has(still)==1 and label is 0
+   0.046 has(pour)==1 and label is 0
+   0.046 has(outsid)==1 and label is 0
+   0.045 neg_l(proud)==0.0 and label is 4
+   0.045 neg_l(best)==0.0 and label is 4
+   0.045 neg_l(friend)==0.0 and label is 4
+   0.045 neg_l(varsiti)==0.0 and label is 4
+   0.045 neg_r(proud)==0.0 and label is 4
+   0.045 neg_r(best)==0.0 and label is 4
+   0.045 neg_r(friend)==0.0 and label is 4
+   0.045 neg_r(varsiti)==0.0 and label is 4
+   0.045 has(proud)==1 and label is 4
+   0.045 has(best)==1 and label is 4
+   0.045 has(friend)==1 and label is 4
+   0.045 has(varsiti)==1 and label is 4
+   0.043 neg_l(__punc_ellp)==0.0 and label is 0
+   0.043 has(__punc_ellp)==1 and label is 0
+   0.043 neg_l(feel)==0.0 and label is 0
+   0.043 neg_l(like)==0.0 and label is 0
+   0.043 neg_l(go)==0.0 and label is 0
+   0.043 neg_l(camp)==0.0 and label is 0
+   0.043 neg_l(miss)==0.0 and label is 0
+   0.043 neg_l(the)==0.0 and label is 0
+   0.043 neg_l(outdoor)==0.0 and label is 0
+   0.043 neg_r(feel)==0.0 and label is 0
+   0.043 neg_r(like)==0.0 and label is 0
+   0.043 neg_r(go)==0.0 and label is 0
+   0.043 neg_r(camp)==0.0 and label is 0
+   0.043 neg_r(miss)==0.0 and label is 0
+   0.043 neg_r(the)==0.0 and label is 0
+   0.043 neg_r(outdoor)==0.0 and label is 0
+   0.043 has(feel)==1 and label is 0
+   0.043 has(like)==1 and label is 0
+   0.043 has(go)==1 and label is 0
+   0.043 has(camp)==1 and label is 0
+   0.043 has(miss)==1 and label is 0
+   0.043 has(outdoor)==1 and label is 0
+   0.043 neg_l(hear)==0.0 and label is 4
+   0.043 neg_l(pina)==0.0 and label is 4
+   0.043 neg_l(colada)==0.0 and label is 4
+   0.043 neg_l(good)==0.0 and label is 4
+   0.043 neg_l(for)==0.0 and label is 4
+   0.043 neg_l(sore)==0.0 and label is 4
+   0.043 neg_l(throat)==0.0 and label is 4
+   0.043 neg_r(hear)==0.0 and label is 4
+   0.043 neg_r(pina)==0.0 and label is 4
+   0.043 neg_r(colada)==0.0 and label is 4
+   0.043 neg_r(sore)==0.0 and label is 4
+   0.043 neg_r(throat)==0.0 and label is 4
+   0.043 has(hear)==1 and label is 4
+   0.043 has(pina)==1 and label is 4
+   0.043 has(colada)==1 and label is 4
+   0.043 has(sore)==1 and label is 4
+   0.043 has(throat)==1 and label is 4
+   0.042 neg_l(__hndl)==0.0 and label is 4
+   0.042 neg_r(__hndl)==0.0 and label is 4
+   0.042 has(__hndl)==1 and label is 4
+   0.041 neg_l(__punc_excl)==0.0 and label is 4
+   0.041 neg_r(__punc_excl)==0.0 and label is 4
+   0.041 has(__punc_excl)==1 and label is 4
+   0.039 neg_l(neb)==0.0 and label is 0
+   0.039 neg_l(treatment)==0.0 and label is 0
+   0.039 neg_l(number)==0.0 and label is 0
+   0.039 neg_l(thi)==0.0 and label is 0
+   0.039 neg_l(even)==0.0 and label is 0
+   0.039 neg_l(isnt)==1.0 and label is 0
+   0.039 neg_l(look)==0.9 and label is 0
+   0.039 neg_l(good)==0.8 and label is 0
+   0.039 neg_l(for)==0.7000000000000001 and label is 0
+   0.039 neg_l(zoie)==0.6000000000000001 and label is 0
+   0.039 neg_r(neb)==0.30000000000000016 and label is 0
+   0.039 neg_r(treatment)==0.40000000000000013 and label is 0
+   0.039 neg_r(number)==0.5000000000000001 and label is 0
+   0.039 neg_r(thi)==0.9 and label is 0
+   0.039 neg_r(even)==0.7000000000000001 and label is 0
+   0.039 neg_r(__punc_ellp)==0.8 and label is 0
+   0.039 neg_r(isnt)==1.0 and label is 0
+   0.039 neg_r(look)==0.0 and label is 0
+   0.039 neg_r(zoie)==0.0 and label is 0
+   0.039 has(neb)==1 and label is 0
+   0.039 has(treatment)==1 and label is 0
+   0.039 has(number)==1 and label is 0
+   0.039 has(thi)==1 and label is 0
+   0.039 has(even)==1 and label is 0
+   0.039 has(isnt)==1 and label is 0
+   0.039 has(look)==1 and label is 0
+   0.039 has(zoie)==1 and label is 0
+None
+######################
+Accuracy : 0.0
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>1 |
+4 | 1<.>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.500
+             2          -0.64816        1.000
+             3          -0.60828        1.000
+             4          -0.57274        1.000
+             5          -0.54092        1.000
+             6          -0.51230        1.000
+             7          -0.48643        1.000
+             8          -0.46295        1.000
+             9          -0.44155        1.000
+         Final          -0.42197        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.5
+######################
+   0.041 neg_l(still)==0.0 and label is 0
+   0.041 neg_l(pour)==0.0 and label is 0
+   0.041 neg_l(outsid)==0.0 and label is 0
+   0.041 neg_r(still)==0.0 and label is 0
+   0.041 neg_r(pour)==0.0 and label is 0
+   0.041 neg_r(outsid)==0.0 and label is 0
+   0.041 has(still)==1 and label is 0
+   0.041 has(pour)==1 and label is 0
+   0.041 has(outsid)==1 and label is 0
+   0.038 neg_l(like)==0.0 and label is 0
+   0.038 neg_l(go)==0.0 and label is 0
+   0.038 neg_l(camp)==0.0 and label is 0
+   0.038 neg_l(miss)==0.0 and label is 0
+   0.038 neg_l(the)==0.0 and label is 0
+   0.038 neg_l(outdoor)==0.0 and label is 0
+   0.038 neg_r(like)==0.0 and label is 0
+   0.038 neg_r(go)==0.0 and label is 0
+   0.038 neg_r(camp)==0.0 and label is 0
+   0.038 neg_r(miss)==0.0 and label is 0
+   0.038 neg_r(the)==0.0 and label is 0
+   0.038 neg_r(outdoor)==0.0 and label is 0
+   0.038 has(like)==1 and label is 0
+   0.038 has(go)==1 and label is 0
+   0.038 has(camp)==1 and label is 0
+   0.038 has(miss)==1 and label is 0
+   0.038 has(outdoor)==1 and label is 0
+   0.038 neg_l(pina)==0.0 and label is 4
+   0.038 neg_l(colada)==0.0 and label is 4
+   0.038 neg_l(good)==0.0 and label is 4
+   0.038 neg_l(for)==0.0 and label is 4
+   0.038 neg_l(sore)==0.0 and label is 4
+   0.038 neg_l(throat)==0.0 and label is 4
+   0.038 neg_r(pina)==0.0 and label is 4
+   0.038 neg_r(colada)==0.0 and label is 4
+   0.038 neg_r(sore)==0.0 and label is 4
+   0.038 neg_r(throat)==0.0 and label is 4
+   0.038 has(pina)==1 and label is 4
+   0.038 has(colada)==1 and label is 4
+   0.038 has(sore)==1 and label is 4
+   0.038 has(throat)==1 and label is 4
+   0.037 neg_l(hate)==0.0 and label is 0
+   0.037 neg_l(wierd)==0.0 and label is 0
+   0.037 neg_l(unknown)==0.0 and label is 0
+   0.037 neg_l(thing)==0.0 and label is 0
+   0.037 neg_l(move)==0.0 and label is 0
+   0.037 neg_l(around)==0.0 and label is 0
+   0.037 neg_l(night)==0.0 and label is 0
+   0.037 neg_r(hate)==0.0 and label is 0
+   0.037 neg_r(wierd)==0.0 and label is 0
+   0.037 neg_r(unknown)==0.0 and label is 0
+   0.037 neg_r(thing)==0.0 and label is 0
+   0.037 neg_r(move)==0.0 and label is 0
+   0.037 neg_r(around)==0.0 and label is 0
+   0.037 neg_r(night)==0.0 and label is 0
+   0.037 has(hate)==1 and label is 0
+   0.037 has(wierd)==1 and label is 0
+   0.037 has(unknown)==1 and label is 0
+   0.037 has(thing)==1 and label is 0
+   0.037 has(move)==1 and label is 0
+   0.037 has(around)==1 and label is 0
+   0.037 has(night)==1 and label is 0
+   0.035 neg_l(__hndl)==0.0 and label is 4
+   0.035 neg_r(__hndl)==0.0 and label is 4
+   0.035 has(__hndl)==1 and label is 4
+   0.035 neg_l(ohh)==0.0 and label is 4
+   0.035 neg_l(actual)==0.0 and label is 4
+   0.035 neg_l(sick)==0.0 and label is 4
+   0.035 neg_l(__punc_qu)==0.0 and label is 4
+   0.035 neg_l(that)==0.0 and label is 4
+   0.035 neg_l(sux)==0.0 and label is 4
+   0.035 neg_l(hope)==0.0 and label is 4
+   0.035 neg_l(better)==0.0 and label is 4
+   0.035 neg_l(soon)==0.0 and label is 4
+   0.035 neg_r(ohh)==0.0 and label is 4
+   0.035 neg_r(actual)==0.0 and label is 4
+   0.035 neg_r(sick)==0.0 and label is 4
+   0.035 neg_r(__punc_qu)==0.0 and label is 4
+   0.035 neg_r(that)==0.0 and label is 4
+   0.035 neg_r(sux)==0.0 and label is 4
+   0.035 neg_r(hope)==0.0 and label is 4
+   0.035 neg_r(better)==0.0 and label is 4
+   0.035 neg_r(soon)==0.0 and label is 4
+   0.035 pos(better)==1 and label is 4
+   0.035 has(ohh)==1 and label is 4
+   0.035 has(actual)==1 and label is 4
+   0.035 has(sick)==1 and label is 4
+   0.035 has(__punc_qu)==1 and label is 4
+   0.035 has(sux)==1 and label is 4
+   0.035 has(hope)==1 and label is 4
+   0.035 has(better)==1 and label is 4
+   0.035 has(soon)==1 and label is 4
+   0.035 neg_l(neb)==0.0 and label is 0
+   0.035 neg_l(treatment)==0.0 and label is 0
+   0.035 neg_l(number)==0.0 and label is 0
+   0.035 neg_l(thi)==0.0 and label is 0
+   0.035 neg_l(even)==0.0 and label is 0
+   0.035 neg_l(isnt)==1.0 and label is 0
+   0.035 neg_l(look)==0.9 and label is 0
+   0.035 neg_l(good)==0.8 and label is 0
+   0.035 neg_l(for)==0.7000000000000001 and label is 0
+None
+######################
+Accuracy : 0.5
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>. |
+4 | 1<1>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.500
+             2          -0.64700        1.000
+             3          -0.60649        1.000
+             4          -0.57074        1.000
+             5          -0.53897        1.000
+             6          -0.51060        1.000
+             7          -0.48510        1.000
+             8          -0.46208        1.000
+             9          -0.44118        1.000
+         Final          -0.42213        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.5
+######################
+   0.048 neg_l(50th)==0.0 and label is 4
+   0.048 neg_l(follow)==0.0 and label is 4
+   0.048 neg_r(50th)==0.0 and label is 4
+   0.048 neg_r(follow)==0.0 and label is 4
+   0.048 has(50th)==1 and label is 4
+   0.048 has(follow)==1 and label is 4
+   0.046 neg_l(still)==0.0 and label is 0
+   0.046 neg_l(pour)==0.0 and label is 0
+   0.046 neg_l(outsid)==0.0 and label is 0
+   0.046 neg_r(still)==0.0 and label is 0
+   0.046 neg_r(pour)==0.0 and label is 0
+   0.046 neg_r(outsid)==0.0 and label is 0
+   0.046 has(still)==1 and label is 0
+   0.046 has(pour)==1 and label is 0
+   0.046 has(outsid)==1 and label is 0
+   0.046 neg_l(proud)==0.0 and label is 4
+   0.046 neg_l(best)==0.0 and label is 4
+   0.046 neg_l(friend)==0.0 and label is 4
+   0.046 neg_l(varsiti)==0.0 and label is 4
+   0.046 neg_r(proud)==0.0 and label is 4
+   0.046 neg_r(best)==0.0 and label is 4
+   0.046 neg_r(friend)==0.0 and label is 4
+   0.046 neg_r(varsiti)==0.0 and label is 4
+   0.046 has(proud)==1 and label is 4
+   0.046 has(best)==1 and label is 4
+   0.046 has(friend)==1 and label is 4
+   0.046 has(varsiti)==1 and label is 4
+   0.043 neg_l(like)==0.0 and label is 0
+   0.043 neg_l(go)==0.0 and label is 0
+   0.043 neg_l(camp)==0.0 and label is 0
+   0.043 neg_l(miss)==0.0 and label is 0
+   0.043 neg_l(the)==0.0 and label is 0
+   0.043 neg_l(outdoor)==0.0 and label is 0
+   0.043 neg_r(like)==0.0 and label is 0
+   0.043 neg_r(go)==0.0 and label is 0
+   0.043 neg_r(camp)==0.0 and label is 0
+   0.043 neg_r(miss)==0.0 and label is 0
+   0.043 neg_r(the)==0.0 and label is 0
+   0.043 neg_r(outdoor)==0.0 and label is 0
+   0.043 has(like)==1 and label is 0
+   0.043 has(go)==1 and label is 0
+   0.043 has(camp)==1 and label is 0
+   0.043 has(miss)==1 and label is 0
+   0.043 has(outdoor)==1 and label is 0
+   0.041 neg_l(__hndl)==0.0 and label is 4
+   0.041 neg_r(__hndl)==0.0 and label is 4
+   0.041 has(__hndl)==1 and label is 4
+   0.041 neg_l(hate)==0.0 and label is 0
+   0.041 neg_l(hear)==0.0 and label is 0
+   0.041 neg_l(wierd)==0.0 and label is 0
+   0.041 neg_l(unknown)==0.0 and label is 0
+   0.041 neg_l(thing)==0.0 and label is 0
+   0.041 neg_l(move)==0.0 and label is 0
+   0.041 neg_l(around)==0.0 and label is 0
+   0.041 neg_l(night)==0.0 and label is 0
+   0.041 neg_r(hate)==0.0 and label is 0
+   0.041 neg_r(hear)==0.0 and label is 0
+   0.041 neg_r(wierd)==0.0 and label is 0
+   0.041 neg_r(unknown)==0.0 and label is 0
+   0.041 neg_r(thing)==0.0 and label is 0
+   0.041 neg_r(move)==0.0 and label is 0
+   0.041 neg_r(around)==0.0 and label is 0
+   0.041 neg_r(night)==0.0 and label is 0
+   0.041 has(hate)==1 and label is 0
+   0.041 has(hear)==1 and label is 0
+   0.041 has(wierd)==1 and label is 0
+   0.041 has(unknown)==1 and label is 0
+   0.041 has(thing)==1 and label is 0
+   0.041 has(move)==1 and label is 0
+   0.041 has(around)==1 and label is 0
+   0.041 has(night)==1 and label is 0
+   0.039 neg_l(ohh)==0.0 and label is 4
+   0.039 neg_l(actual)==0.0 and label is 4
+   0.039 neg_l(sick)==0.0 and label is 4
+   0.039 neg_l(__punc_qu)==0.0 and label is 4
+   0.039 neg_l(that)==0.0 and label is 4
+   0.039 neg_l(sux)==0.0 and label is 4
+   0.039 neg_l(hope)==0.0 and label is 4
+   0.039 neg_l(better)==0.0 and label is 4
+   0.039 neg_l(soon)==0.0 and label is 4
+   0.039 neg_r(ohh)==0.0 and label is 4
+   0.039 neg_r(actual)==0.0 and label is 4
+   0.039 neg_r(sick)==0.0 and label is 4
+   0.039 neg_r(__punc_qu)==0.0 and label is 4
+   0.039 neg_r(that)==0.0 and label is 4
+   0.039 neg_r(sux)==0.0 and label is 4
+   0.039 neg_r(hope)==0.0 and label is 4
+   0.039 neg_r(better)==0.0 and label is 4
+   0.039 neg_r(soon)==0.0 and label is 4
+   0.039 pos(better)==1 and label is 4
+   0.039 has(ohh)==1 and label is 4
+   0.039 has(actual)==1 and label is 4
+   0.039 has(sick)==1 and label is 4
+   0.039 has(__punc_qu)==1 and label is 4
+   0.039 has(sux)==1 and label is 4
+   0.039 has(hope)==1 and label is 4
+   0.039 has(better)==1 and label is 4
+   0.039 has(soon)==1 and label is 4
+   0.037 neg_l(neb)==0.0 and label is 0
+   0.037 neg_l(treatment)==0.0 and label is 0
+None
+######################
+Accuracy : 0.5
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>. |
+4 | 1<1>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.750
+             2          -0.64620        1.000
+             3          -0.60498        1.000
+             4          -0.56859        1.000
+             5          -0.53627        1.000
+             6          -0.50739        1.000
+             7          -0.48146        1.000
+             8          -0.45806        1.000
+             9          -0.43683        1.000
+         Final          -0.41750        1.000
+######################
+1 Step Classifier :  MaxentClassifier
+Accuracy :  0.0
+######################
+   0.045 neg_l(50th)==0.0 and label is 4
+   0.045 neg_l(follow)==0.0 and label is 4
+   0.045 neg_r(50th)==0.0 and label is 4
+   0.045 neg_r(follow)==0.0 and label is 4
+   0.045 has(50th)==1 and label is 4
+   0.045 has(follow)==1 and label is 4
+   0.042 neg_l(proud)==0.0 and label is 4
+   0.042 neg_l(best)==0.0 and label is 4
+   0.042 neg_l(friend)==0.0 and label is 4
+   0.042 neg_l(varsiti)==0.0 and label is 4
+   0.042 neg_r(proud)==0.0 and label is 4
+   0.042 neg_r(best)==0.0 and label is 4
+   0.042 neg_r(friend)==0.0 and label is 4
+   0.042 neg_r(varsiti)==0.0 and label is 4
+   0.042 has(proud)==1 and label is 4
+   0.042 has(best)==1 and label is 4
+   0.042 has(friend)==1 and label is 4
+   0.042 has(varsiti)==1 and label is 4
+   0.041 neg_l(like)==0.0 and label is 0
+   0.041 neg_l(go)==0.0 and label is 0
+   0.041 neg_l(camp)==0.0 and label is 0
+   0.041 neg_l(miss)==0.0 and label is 0
+   0.041 neg_l(the)==0.0 and label is 0
+   0.041 neg_l(outdoor)==0.0 and label is 0
+   0.041 neg_r(like)==0.0 and label is 0
+   0.041 neg_r(go)==0.0 and label is 0
+   0.041 neg_r(camp)==0.0 and label is 0
+   0.041 neg_r(miss)==0.0 and label is 0
+   0.041 neg_r(the)==0.0 and label is 0
+   0.041 neg_r(outdoor)==0.0 and label is 0
+   0.041 has(like)==1 and label is 0
+   0.041 has(go)==1 and label is 0
+   0.041 has(camp)==1 and label is 0
+   0.041 has(miss)==1 and label is 0
+   0.041 has(outdoor)==1 and label is 0
+   0.040 neg_l(hate)==0.0 and label is 0
+   0.040 neg_l(wierd)==0.0 and label is 0
+   0.040 neg_l(unknown)==0.0 and label is 0
+   0.040 neg_l(thing)==0.0 and label is 0
+   0.040 neg_l(move)==0.0 and label is 0
+   0.040 neg_l(around)==0.0 and label is 0
+   0.040 neg_l(night)==0.0 and label is 0
+   0.040 neg_r(hate)==0.0 and label is 0
+   0.040 neg_r(wierd)==0.0 and label is 0
+   0.040 neg_r(unknown)==0.0 and label is 0
+   0.040 neg_r(thing)==0.0 and label is 0
+   0.040 neg_r(move)==0.0 and label is 0
+   0.040 neg_r(around)==0.0 and label is 0
+   0.040 neg_r(night)==0.0 and label is 0
+   0.040 has(hate)==1 and label is 0
+   0.040 has(wierd)==1 and label is 0
+   0.040 has(unknown)==1 and label is 0
+   0.040 has(thing)==1 and label is 0
+   0.040 has(move)==1 and label is 0
+   0.040 has(around)==1 and label is 0
+   0.040 has(night)==1 and label is 0
+   0.039 neg_l(pina)==0.0 and label is 4
+   0.039 neg_l(colada)==0.0 and label is 4
+   0.039 neg_l(good)==0.0 and label is 4
+   0.039 neg_l(for)==0.0 and label is 4
+   0.039 neg_l(sore)==0.0 and label is 4
+   0.039 neg_l(throat)==0.0 and label is 4
+   0.039 neg_r(pina)==0.0 and label is 4
+   0.039 neg_r(colada)==0.0 and label is 4
+   0.039 neg_r(good)==0.0 and label is 4
+   0.039 neg_r(for)==0.0 and label is 4
+   0.039 neg_r(sore)==0.0 and label is 4
+   0.039 neg_r(throat)==0.0 and label is 4
+   0.039 pos(good)==1 and label is 4
+   0.039 has(pina)==1 and label is 4
+   0.039 has(colada)==1 and label is 4
+   0.039 has(good)==1 and label is 4
+   0.039 has(sore)==1 and label is 4
+   0.039 has(throat)==1 and label is 4
+   0.038 neg_l(__hndl)==0.0 and label is 4
+   0.038 neg_r(__hndl)==0.0 and label is 4
+   0.038 has(__hndl)==1 and label is 4
+   0.036 neg_l(ohh)==0.0 and label is 4
+   0.036 neg_l(actual)==0.0 and label is 4
+   0.036 neg_l(sick)==0.0 and label is 4
+   0.036 neg_l(__punc_qu)==0.0 and label is 4
+   0.036 neg_l(that)==0.0 and label is 4
+   0.036 neg_l(sux)==0.0 and label is 4
+   0.036 neg_l(__punc_ellp)==0.0 and label is 4
+   0.036 neg_l(hope)==0.0 and label is 4
+   0.036 neg_l(better)==0.0 and label is 4
+   0.036 neg_l(soon)==0.0 and label is 4
+   0.036 neg_r(ohh)==0.0 and label is 4
+   0.036 neg_r(actual)==0.0 and label is 4
+   0.036 neg_r(sick)==0.0 and label is 4
+   0.036 neg_r(__punc_qu)==0.0 and label is 4
+   0.036 neg_r(that)==0.0 and label is 4
+   0.036 neg_r(sux)==0.0 and label is 4
+   0.036 neg_r(__punc_ellp)==0.0 and label is 4
+   0.036 neg_r(hope)==0.0 and label is 4
+   0.036 neg_r(better)==0.0 and label is 4
+   0.036 neg_r(soon)==0.0 and label is 4
+   0.036 pos(better)==1 and label is 4
+   0.036 has(ohh)==1 and label is 4
+   0.036 has(actual)==1 and label is 4
+None
+######################
+Accuracy : 0.0
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>2 |
+4 | .<.>|
+--+-----+
+(row = reference; col = test)
+
+Accuracies: [0.5, 0.0, 0.5, 0.5, 0.0]
+Average Accuracy: 0.3

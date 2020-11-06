@@ -1,0 +1,592 @@
+NaiveBayesClassifier
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.5
+######################
+Most Informative Features
+        has(__punc_ellp) = 1                   0 : 4      =      2.5 : 1.0
+      neg_l(__punc_ellp) = 0.0                 0 : 4      =      2.5 : 1.0
+           neg_r(__hndl) = None                0 : 4      =      2.1 : 1.0
+           neg_l(__hndl) = None                0 : 4      =      2.1 : 1.0
+             has(__hndl) = None                0 : 4      =      2.1 : 1.0
+      neg_r(__punc_ellp) = None                4 : 0      =      2.1 : 1.0
+        has(__punc_ellp) = None                4 : 0      =      2.0 : 1.0
+      neg_l(__punc_ellp) = None                4 : 0      =      2.0 : 1.0
+               has(hear) = 1                   0 : 4      =      1.5 : 1.0
+             neg_r(good) = 0.0                 0 : 4      =      1.5 : 1.0
+               has(good) = 1                   0 : 4      =      1.5 : 1.0
+              neg_r(for) = 0.0                 0 : 4      =      1.5 : 1.0
+             neg_r(hear) = 0.0                 0 : 4      =      1.5 : 1.0
+             neg_l(hear) = 0.0                 0 : 4      =      1.5 : 1.0
+               pos(good) = 1                   0 : 4      =      1.5 : 1.0
+        neg_l(treatment) = None                4 : 0      =      1.5 : 1.0
+              neg_l(thi) = None                4 : 0      =      1.5 : 1.0
+              neg_r(thi) = None                4 : 0      =      1.5 : 1.0
+           neg_l(around) = None                4 : 0      =      1.5 : 1.0
+           neg_r(outsid) = None                4 : 0      =      1.5 : 1.0
+              has(night) = None                4 : 0      =      1.5 : 1.0
+            neg_l(thing) = None                4 : 0      =      1.5 : 1.0
+          neg_r(unknown) = None                4 : 0      =      1.5 : 1.0
+            has(unknown) = None                4 : 0      =      1.5 : 1.0
+              neg_l(neb) = None                4 : 0      =      1.5 : 1.0
+               has(zoie) = None                4 : 0      =      1.5 : 1.0
+            neg_r(thing) = None                4 : 0      =      1.5 : 1.0
+           neg_r(around) = None                4 : 0      =      1.5 : 1.0
+             has(around) = None                4 : 0      =      1.5 : 1.0
+          has(treatment) = None                4 : 0      =      1.5 : 1.0
+              neg_r(neb) = None                4 : 0      =      1.5 : 1.0
+           neg_l(number) = None                4 : 0      =      1.5 : 1.0
+             neg_r(pour) = None                4 : 0      =      1.5 : 1.0
+              has(thing) = None                4 : 0      =      1.5 : 1.0
+             neg_l(pour) = None                4 : 0      =      1.5 : 1.0
+            neg_l(night) = None                4 : 0      =      1.5 : 1.0
+            neg_r(wierd) = None                4 : 0      =      1.5 : 1.0
+             neg_l(even) = None                4 : 0      =      1.5 : 1.0
+               has(hate) = None                4 : 0      =      1.5 : 1.0
+             neg_r(isnt) = None                4 : 0      =      1.5 : 1.0
+             has(outsid) = None                4 : 0      =      1.5 : 1.0
+               has(isnt) = None                4 : 0      =      1.5 : 1.0
+             neg_l(move) = None                4 : 0      =      1.5 : 1.0
+             neg_r(even) = None                4 : 0      =      1.5 : 1.0
+               has(move) = None                4 : 0      =      1.5 : 1.0
+              has(still) = None                4 : 0      =      1.5 : 1.0
+             has(number) = None                4 : 0      =      1.5 : 1.0
+                has(thi) = None                4 : 0      =      1.5 : 1.0
+             neg_r(look) = None                4 : 0      =      1.5 : 1.0
+          neg_l(unknown) = None                4 : 0      =      1.5 : 1.0
+           neg_r(number) = None                4 : 0      =      1.5 : 1.0
+            neg_r(still) = None                4 : 0      =      1.5 : 1.0
+             neg_l(hate) = None                4 : 0      =      1.5 : 1.0
+             neg_r(move) = None                4 : 0      =      1.5 : 1.0
+                has(neb) = None                4 : 0      =      1.5 : 1.0
+             neg_r(hate) = None                4 : 0      =      1.5 : 1.0
+        neg_r(treatment) = None                4 : 0      =      1.5 : 1.0
+               has(even) = None                4 : 0      =      1.5 : 1.0
+               has(pour) = None                4 : 0      =      1.5 : 1.0
+            neg_l(still) = None                4 : 0      =      1.5 : 1.0
+             neg_l(look) = None                4 : 0      =      1.5 : 1.0
+             neg_l(zoie) = None                4 : 0      =      1.5 : 1.0
+           neg_l(outsid) = None                4 : 0      =      1.5 : 1.0
+            neg_r(night) = None                4 : 0      =      1.5 : 1.0
+               has(look) = None                4 : 0      =      1.5 : 1.0
+              has(wierd) = None                4 : 0      =      1.5 : 1.0
+             neg_r(zoie) = None                4 : 0      =      1.5 : 1.0
+            neg_l(wierd) = None                4 : 0      =      1.5 : 1.0
+             neg_l(isnt) = None                4 : 0      =      1.5 : 1.0
+      neg_r(__punc_ellp) = 0.0                 0 : 4      =      1.4 : 1.0
+              neg_l(for) = None                4 : 0      =      1.2 : 1.0
+             neg_l(good) = None                4 : 0      =      1.2 : 1.0
+               has(hear) = None                4 : 0      =      1.2 : 1.0
+             neg_r(good) = None                4 : 0      =      1.2 : 1.0
+              neg_r(for) = None                4 : 0      =      1.2 : 1.0
+               has(good) = None                4 : 0      =      1.2 : 1.0
+             neg_l(hear) = None                4 : 0      =      1.2 : 1.0
+             neg_r(hear) = None                4 : 0      =      1.2 : 1.0
+               pos(good) = None                4 : 0      =      1.2 : 1.0
+               has(sore) = None                0 : 4      =      1.2 : 1.0
+           neg_r(throat) = None                0 : 4      =      1.2 : 1.0
+            neg_r(proud) = None                0 : 4      =      1.2 : 1.0
+               has(soup) = None                0 : 4      =      1.2 : 1.0
+              neg_l(and) = None                0 : 4      =      1.2 : 1.0
+             neg_r(soon) = None                0 : 4      =      1.2 : 1.0
+             neg_l(time) = None                0 : 4      =      1.2 : 1.0
+            neg_r(soupi) = None                0 : 4      =      1.2 : 1.0
+         neg_l(mushroom) = None                0 : 4      =      1.2 : 1.0
+           neg_l(actual) = None                0 : 4      =      1.2 : 1.0
+             neg_l(hope) = None                0 : 4      =      1.2 : 1.0
+          has(__punc_qu) = None                0 : 4      =      1.2 : 1.0
+           neg_r(actual) = None                0 : 4      =      1.2 : 1.0
+             neg_l(sick) = None                0 : 4      =      1.2 : 1.0
+          neg_l(varsiti) = None                0 : 4      =      1.2 : 1.0
+         neg_r(mushroom) = None                0 : 4      =      1.2 : 1.0
+             neg_l(best) = None                0 : 4      =      1.2 : 1.0
+              neg_r(bbl) = None                0 : 4      =      1.2 : 1.0
+             neg_r(feel) = None                0 : 4      =      1.2 : 1.0
+           neg_l(better) = None                0 : 4      =      1.2 : 1.0
+             neg_r(best) = None                0 : 4      =      1.2 : 1.0
+None
+######################
+Accuracy : 0.5
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>1 |
+4 | .<1>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.0
+######################
+Most Informative Features
+      neg_r(__punc_ellp) = None                4 : 0      =      2.5 : 1.0
+        has(__punc_ellp) = None                4 : 0      =      2.4 : 1.0
+      neg_l(__punc_ellp) = None                4 : 0      =      2.4 : 1.0
+           neg_r(__hndl) = None                0 : 4      =      2.1 : 1.0
+           neg_l(__hndl) = None                0 : 4      =      2.1 : 1.0
+             has(__hndl) = None                0 : 4      =      2.1 : 1.0
+             neg_r(good) = 0.0                 0 : 4      =      1.5 : 1.0
+               has(good) = 1                   0 : 4      =      1.5 : 1.0
+              neg_r(for) = 0.0                 0 : 4      =      1.5 : 1.0
+               pos(good) = 1                   0 : 4      =      1.5 : 1.0
+      neg_r(__punc_excl) = None                0 : 4      =      1.5 : 1.0
+        has(__punc_excl) = None                0 : 4      =      1.5 : 1.0
+      neg_l(__punc_excl) = None                0 : 4      =      1.5 : 1.0
+        neg_l(treatment) = None                4 : 0      =      1.5 : 1.0
+              neg_l(thi) = None                4 : 0      =      1.5 : 1.0
+              neg_r(thi) = None                4 : 0      =      1.5 : 1.0
+           neg_r(outsid) = None                4 : 0      =      1.5 : 1.0
+              neg_r(the) = None                4 : 0      =      1.5 : 1.0
+               has(like) = None                4 : 0      =      1.5 : 1.0
+             neg_r(camp) = None                4 : 0      =      1.5 : 1.0
+              neg_l(neb) = None                4 : 0      =      1.5 : 1.0
+             neg_l(like) = None                4 : 0      =      1.5 : 1.0
+             neg_r(like) = None                4 : 0      =      1.5 : 1.0
+               has(zoie) = None                4 : 0      =      1.5 : 1.0
+               neg_l(go) = None                4 : 0      =      1.5 : 1.0
+             neg_r(feel) = None                4 : 0      =      1.5 : 1.0
+          neg_l(outdoor) = None                4 : 0      =      1.5 : 1.0
+               has(camp) = None                4 : 0      =      1.5 : 1.0
+          has(treatment) = None                4 : 0      =      1.5 : 1.0
+               has(miss) = None                4 : 0      =      1.5 : 1.0
+              neg_r(neb) = None                4 : 0      =      1.5 : 1.0
+           neg_l(number) = None                4 : 0      =      1.5 : 1.0
+             neg_r(pour) = None                4 : 0      =      1.5 : 1.0
+             neg_l(pour) = None                4 : 0      =      1.5 : 1.0
+               has(feel) = None                4 : 0      =      1.5 : 1.0
+            has(outdoor) = None                4 : 0      =      1.5 : 1.0
+             neg_l(even) = None                4 : 0      =      1.5 : 1.0
+             neg_r(isnt) = None                4 : 0      =      1.5 : 1.0
+             has(outsid) = None                4 : 0      =      1.5 : 1.0
+               has(isnt) = None                4 : 0      =      1.5 : 1.0
+             neg_r(even) = None                4 : 0      =      1.5 : 1.0
+              has(still) = None                4 : 0      =      1.5 : 1.0
+             has(number) = None                4 : 0      =      1.5 : 1.0
+                 has(go) = None                4 : 0      =      1.5 : 1.0
+                has(thi) = None                4 : 0      =      1.5 : 1.0
+             neg_r(look) = None                4 : 0      =      1.5 : 1.0
+           neg_r(number) = None                4 : 0      =      1.5 : 1.0
+            neg_r(still) = None                4 : 0      =      1.5 : 1.0
+              neg_l(the) = None                4 : 0      =      1.5 : 1.0
+                has(neb) = None                4 : 0      =      1.5 : 1.0
+               neg_r(go) = None                4 : 0      =      1.5 : 1.0
+        neg_r(treatment) = None                4 : 0      =      1.5 : 1.0
+               has(even) = None                4 : 0      =      1.5 : 1.0
+               has(pour) = None                4 : 0      =      1.5 : 1.0
+            neg_l(still) = None                4 : 0      =      1.5 : 1.0
+             neg_l(look) = None                4 : 0      =      1.5 : 1.0
+             neg_l(miss) = None                4 : 0      =      1.5 : 1.0
+             neg_r(miss) = None                4 : 0      =      1.5 : 1.0
+             neg_l(zoie) = None                4 : 0      =      1.5 : 1.0
+           neg_l(outsid) = None                4 : 0      =      1.5 : 1.0
+             neg_l(camp) = None                4 : 0      =      1.5 : 1.0
+          neg_r(outdoor) = None                4 : 0      =      1.5 : 1.0
+             neg_l(feel) = None                4 : 0      =      1.5 : 1.0
+               has(look) = None                4 : 0      =      1.5 : 1.0
+             neg_r(zoie) = None                4 : 0      =      1.5 : 1.0
+             neg_l(isnt) = None                4 : 0      =      1.5 : 1.0
+              neg_l(for) = None                4 : 0      =      1.2 : 1.0
+             neg_l(good) = None                4 : 0      =      1.2 : 1.0
+             neg_r(good) = None                4 : 0      =      1.2 : 1.0
+              neg_r(for) = None                4 : 0      =      1.2 : 1.0
+               has(good) = None                4 : 0      =      1.2 : 1.0
+               pos(good) = None                4 : 0      =      1.2 : 1.0
+            neg_l(layer) = None                0 : 4      =      1.2 : 1.0
+               has(hear) = None                0 : 4      =      1.2 : 1.0
+               has(sore) = None                0 : 4      =      1.2 : 1.0
+             neg_l(soap) = None                0 : 4      =      1.2 : 1.0
+           neg_r(throat) = None                0 : 4      =      1.2 : 1.0
+            neg_r(proud) = None                0 : 4      =      1.2 : 1.0
+             neg_l(nice) = None                0 : 4      =      1.2 : 1.0
+             neg_r(nice) = None                0 : 4      =      1.2 : 1.0
+               has(soup) = None                0 : 4      =      1.2 : 1.0
+              neg_l(and) = None                0 : 4      =      1.2 : 1.0
+            neg_l(scrub) = None                0 : 4      =      1.2 : 1.0
+             neg_l(time) = None                0 : 4      =      1.2 : 1.0
+            neg_r(soupi) = None                0 : 4      =      1.2 : 1.0
+         neg_l(mushroom) = None                0 : 4      =      1.2 : 1.0
+           neg_r(fluffi) = None                0 : 4      =      1.2 : 1.0
+             neg_l(keep) = None                0 : 4      =      1.2 : 1.0
+              neg_r(top) = None                0 : 4      =      1.2 : 1.0
+               has(soap) = None                0 : 4      =      1.2 : 1.0
+          neg_l(varsiti) = None                0 : 4      =      1.2 : 1.0
+         neg_r(mushroom) = None                0 : 4      =      1.2 : 1.0
+             neg_l(best) = None                0 : 4      =      1.2 : 1.0
+              neg_r(bbl) = None                0 : 4      =      1.2 : 1.0
+             neg_r(best) = None                0 : 4      =      1.2 : 1.0
+                has(bbl) = None                0 : 4      =      1.2 : 1.0
+          neg_r(varsiti) = None                0 : 4      =      1.2 : 1.0
+              neg_l(too) = None                0 : 4      =      1.2 : 1.0
+             neg_r(pina) = None                0 : 4      =      1.2 : 1.0
+           neg_l(fluffi) = None                0 : 4      =      1.2 : 1.0
+None
+######################
+Accuracy : 0.0
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>1 |
+4 | 1<.>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  1.0
+######################
+Most Informative Features
+           neg_r(__hndl) = None                0 : 4      =      3.0 : 1.0
+           neg_l(__hndl) = None                0 : 4      =      3.0 : 1.0
+             has(__hndl) = None                0 : 4      =      3.0 : 1.0
+        has(__punc_ellp) = 1                   0 : 4      =      1.7 : 1.0
+      neg_l(__punc_ellp) = 0.0                 0 : 4      =      1.7 : 1.0
+        has(__punc_ellp) = None                4 : 0      =      1.4 : 1.0
+      neg_l(__punc_ellp) = None                4 : 0      =      1.4 : 1.0
+      neg_r(__punc_ellp) = None                4 : 0      =      1.4 : 1.0
+            neg_l(layer) = None                0 : 4      =      1.3 : 1.0
+               has(sore) = None                0 : 4      =      1.3 : 1.0
+        neg_l(treatment) = None                4 : 0      =      1.3 : 1.0
+              neg_l(thi) = None                4 : 0      =      1.3 : 1.0
+             neg_l(soap) = None                0 : 4      =      1.3 : 1.0
+              neg_r(thi) = None                4 : 0      =      1.3 : 1.0
+           neg_l(around) = None                4 : 0      =      1.3 : 1.0
+           neg_r(throat) = None                0 : 4      =      1.3 : 1.0
+           neg_r(outsid) = None                4 : 0      =      1.3 : 1.0
+             neg_l(nice) = None                0 : 4      =      1.3 : 1.0
+             neg_r(nice) = None                0 : 4      =      1.3 : 1.0
+              neg_r(the) = None                4 : 0      =      1.3 : 1.0
+               has(like) = None                4 : 0      =      1.3 : 1.0
+               has(soup) = None                0 : 4      =      1.3 : 1.0
+              neg_l(and) = None                0 : 4      =      1.3 : 1.0
+              has(night) = None                4 : 0      =      1.3 : 1.0
+             neg_r(soon) = None                0 : 4      =      1.3 : 1.0
+            neg_l(scrub) = None                0 : 4      =      1.3 : 1.0
+             neg_l(time) = None                0 : 4      =      1.3 : 1.0
+            neg_r(soupi) = None                0 : 4      =      1.3 : 1.0
+         neg_l(mushroom) = None                0 : 4      =      1.3 : 1.0
+            neg_l(thing) = None                4 : 0      =      1.3 : 1.0
+           neg_r(fluffi) = None                0 : 4      =      1.3 : 1.0
+             neg_r(camp) = None                4 : 0      =      1.3 : 1.0
+          neg_r(unknown) = None                4 : 0      =      1.3 : 1.0
+            has(unknown) = None                4 : 0      =      1.3 : 1.0
+              neg_l(neb) = None                4 : 0      =      1.3 : 1.0
+             neg_l(keep) = None                0 : 4      =      1.3 : 1.0
+              neg_r(top) = None                0 : 4      =      1.3 : 1.0
+           neg_l(actual) = None                0 : 4      =      1.3 : 1.0
+             neg_l(like) = None                4 : 0      =      1.3 : 1.0
+             neg_r(like) = None                4 : 0      =      1.3 : 1.0
+             neg_l(hope) = None                0 : 4      =      1.3 : 1.0
+               has(soap) = None                0 : 4      =      1.3 : 1.0
+          has(__punc_qu) = None                0 : 4      =      1.3 : 1.0
+           neg_r(actual) = None                0 : 4      =      1.3 : 1.0
+               has(zoie) = None                4 : 0      =      1.3 : 1.0
+             neg_l(sick) = None                0 : 4      =      1.3 : 1.0
+               neg_l(go) = None                4 : 0      =      1.3 : 1.0
+            neg_r(thing) = None                4 : 0      =      1.3 : 1.0
+         neg_r(mushroom) = None                0 : 4      =      1.3 : 1.0
+           neg_r(around) = None                4 : 0      =      1.3 : 1.0
+              neg_r(bbl) = None                0 : 4      =      1.3 : 1.0
+           neg_l(better) = None                0 : 4      =      1.3 : 1.0
+                has(bbl) = None                0 : 4      =      1.3 : 1.0
+             has(around) = None                4 : 0      =      1.3 : 1.0
+          neg_l(outdoor) = None                4 : 0      =      1.3 : 1.0
+              neg_l(too) = None                0 : 4      =      1.3 : 1.0
+               has(camp) = None                4 : 0      =      1.3 : 1.0
+             neg_r(pina) = None                0 : 4      =      1.3 : 1.0
+           neg_l(fluffi) = None                0 : 4      =      1.3 : 1.0
+               has(pina) = None                0 : 4      =      1.3 : 1.0
+              neg_l(ohh) = None                0 : 4      =      1.3 : 1.0
+             neg_r(with) = None                0 : 4      =      1.3 : 1.0
+          has(treatment) = None                4 : 0      =      1.3 : 1.0
+               has(miss) = None                4 : 0      =      1.3 : 1.0
+              neg_r(neb) = None                4 : 0      =      1.3 : 1.0
+            neg_r(layer) = None                0 : 4      =      1.3 : 1.0
+           neg_l(number) = None                4 : 0      =      1.3 : 1.0
+             neg_r(pour) = None                4 : 0      =      1.3 : 1.0
+           has(mushroom) = None                0 : 4      =      1.3 : 1.0
+              has(thing) = None                4 : 0      =      1.3 : 1.0
+            neg_r(cream) = None                0 : 4      =      1.3 : 1.0
+             neg_l(pour) = None                4 : 0      =      1.3 : 1.0
+              neg_l(sux) = None                0 : 4      =      1.3 : 1.0
+               has(skin) = None                0 : 4      =      1.3 : 1.0
+              has(cream) = None                0 : 4      =      1.3 : 1.0
+                has(top) = None                0 : 4      =      1.3 : 1.0
+          has(vanillari) = None                0 : 4      =      1.3 : 1.0
+              neg_r(sux) = None                0 : 4      =      1.3 : 1.0
+             pos(better) = None                0 : 4      =      1.3 : 1.0
+            neg_l(night) = None                4 : 0      =      1.3 : 1.0
+            neg_r(wierd) = None                4 : 0      =      1.3 : 1.0
+               has(nice) = None                0 : 4      =      1.3 : 1.0
+           neg_l(throat) = None                0 : 4      =      1.3 : 1.0
+            has(outdoor) = None                4 : 0      =      1.3 : 1.0
+        neg_l(__punc_qu) = None                0 : 4      =      1.3 : 1.0
+             has(colada) = None                0 : 4      =      1.3 : 1.0
+             neg_l(even) = None                4 : 0      =      1.3 : 1.0
+             neg_r(soap) = None                0 : 4      =      1.3 : 1.0
+               has(hate) = None                4 : 0      =      1.3 : 1.0
+             neg_r(isnt) = None                4 : 0      =      1.3 : 1.0
+             has(outsid) = None                4 : 0      =      1.3 : 1.0
+             neg_r(sore) = None                0 : 4      =      1.3 : 1.0
+            neg_l(heinz) = None                0 : 4      =      1.3 : 1.0
+             neg_r(time) = None                0 : 4      =      1.3 : 1.0
+               neg_l(it) = None                0 : 4      =      1.3 : 1.0
+               has(isnt) = None                4 : 0      =      1.3 : 1.0
+               has(keep) = None                0 : 4      =      1.3 : 1.0
+             neg_l(move) = None                4 : 0      =      1.3 : 1.0
+             neg_l(soup) = None                0 : 4      =      1.3 : 1.0
+            neg_l(cream) = None                0 : 4      =      1.3 : 1.0
+None
+######################
+Accuracy : 1.0
+Confusion Matrix 
+  | 4 |
+--+---+
+4 |<2>|
+--+---+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.5
+######################
+Most Informative Features
+           neg_r(__hndl) = None                0 : 4      =      3.0 : 1.0
+           neg_l(__hndl) = None                0 : 4      =      3.0 : 1.0
+             has(__hndl) = None                0 : 4      =      3.0 : 1.0
+        has(__punc_ellp) = 1                   0 : 4      =      1.7 : 1.0
+      neg_l(__punc_ellp) = 0.0                 0 : 4      =      1.7 : 1.0
+        has(__punc_ellp) = None                4 : 0      =      1.4 : 1.0
+      neg_l(__punc_ellp) = None                4 : 0      =      1.4 : 1.0
+      neg_r(__punc_ellp) = None                4 : 0      =      1.4 : 1.0
+            neg_l(layer) = None                0 : 4      =      1.3 : 1.0
+               has(hear) = None                4 : 0      =      1.3 : 1.0
+        neg_l(treatment) = None                4 : 0      =      1.3 : 1.0
+             neg_r(good) = None                4 : 0      =      1.3 : 1.0
+              neg_l(thi) = None                4 : 0      =      1.3 : 1.0
+             neg_l(soap) = None                0 : 4      =      1.3 : 1.0
+              neg_r(thi) = None                4 : 0      =      1.3 : 1.0
+           neg_l(around) = None                4 : 0      =      1.3 : 1.0
+              neg_l(for) = None                4 : 0      =      1.3 : 1.0
+           neg_r(outsid) = None                4 : 0      =      1.3 : 1.0
+            neg_r(proud) = None                0 : 4      =      1.3 : 1.0
+             neg_l(nice) = None                0 : 4      =      1.3 : 1.0
+             neg_r(nice) = None                0 : 4      =      1.3 : 1.0
+              neg_r(the) = None                4 : 0      =      1.3 : 1.0
+               has(like) = None                4 : 0      =      1.3 : 1.0
+              has(night) = None                4 : 0      =      1.3 : 1.0
+             neg_r(soon) = None                0 : 4      =      1.3 : 1.0
+            neg_l(scrub) = None                0 : 4      =      1.3 : 1.0
+            neg_l(thing) = None                4 : 0      =      1.3 : 1.0
+           neg_r(fluffi) = None                0 : 4      =      1.3 : 1.0
+             neg_r(camp) = None                4 : 0      =      1.3 : 1.0
+          neg_r(unknown) = None                4 : 0      =      1.3 : 1.0
+            has(unknown) = None                4 : 0      =      1.3 : 1.0
+              neg_l(neb) = None                4 : 0      =      1.3 : 1.0
+             neg_l(keep) = None                0 : 4      =      1.3 : 1.0
+              neg_r(top) = None                0 : 4      =      1.3 : 1.0
+           neg_l(actual) = None                0 : 4      =      1.3 : 1.0
+             neg_l(like) = None                4 : 0      =      1.3 : 1.0
+             neg_r(like) = None                4 : 0      =      1.3 : 1.0
+             neg_l(hope) = None                0 : 4      =      1.3 : 1.0
+               has(soap) = None                0 : 4      =      1.3 : 1.0
+          has(__punc_qu) = None                0 : 4      =      1.3 : 1.0
+           neg_r(actual) = None                0 : 4      =      1.3 : 1.0
+               has(zoie) = None                4 : 0      =      1.3 : 1.0
+             neg_l(sick) = None                0 : 4      =      1.3 : 1.0
+          neg_l(varsiti) = None                0 : 4      =      1.3 : 1.0
+               neg_l(go) = None                4 : 0      =      1.3 : 1.0
+            neg_r(thing) = None                4 : 0      =      1.3 : 1.0
+           neg_r(around) = None                4 : 0      =      1.3 : 1.0
+             neg_l(best) = None                0 : 4      =      1.3 : 1.0
+           neg_l(better) = None                0 : 4      =      1.3 : 1.0
+             neg_r(best) = None                0 : 4      =      1.3 : 1.0
+             has(around) = None                4 : 0      =      1.3 : 1.0
+          neg_r(varsiti) = None                0 : 4      =      1.3 : 1.0
+          neg_l(outdoor) = None                4 : 0      =      1.3 : 1.0
+              neg_l(too) = None                0 : 4      =      1.3 : 1.0
+               has(camp) = None                4 : 0      =      1.3 : 1.0
+           neg_l(fluffi) = None                0 : 4      =      1.3 : 1.0
+              neg_l(ohh) = None                0 : 4      =      1.3 : 1.0
+             neg_r(with) = None                0 : 4      =      1.3 : 1.0
+          has(treatment) = None                4 : 0      =      1.3 : 1.0
+               has(miss) = None                4 : 0      =      1.3 : 1.0
+              neg_r(neb) = None                4 : 0      =      1.3 : 1.0
+            neg_r(layer) = None                0 : 4      =      1.3 : 1.0
+           neg_l(number) = None                4 : 0      =      1.3 : 1.0
+              has(proud) = None                0 : 4      =      1.3 : 1.0
+             neg_r(pour) = None                4 : 0      =      1.3 : 1.0
+              has(thing) = None                4 : 0      =      1.3 : 1.0
+             neg_l(pour) = None                4 : 0      =      1.3 : 1.0
+              neg_l(sux) = None                0 : 4      =      1.3 : 1.0
+               has(skin) = None                0 : 4      =      1.3 : 1.0
+           neg_l(follow) = None                0 : 4      =      1.3 : 1.0
+                has(top) = None                0 : 4      =      1.3 : 1.0
+          has(vanillari) = None                0 : 4      =      1.3 : 1.0
+              neg_r(sux) = None                0 : 4      =      1.3 : 1.0
+             neg_l(50th) = None                0 : 4      =      1.3 : 1.0
+             pos(better) = None                0 : 4      =      1.3 : 1.0
+            neg_l(night) = None                4 : 0      =      1.3 : 1.0
+            neg_r(wierd) = None                4 : 0      =      1.3 : 1.0
+               has(nice) = None                0 : 4      =      1.3 : 1.0
+            has(outdoor) = None                4 : 0      =      1.3 : 1.0
+        neg_l(__punc_qu) = None                0 : 4      =      1.3 : 1.0
+             neg_l(even) = None                4 : 0      =      1.3 : 1.0
+             neg_r(soap) = None                0 : 4      =      1.3 : 1.0
+               has(hate) = None                4 : 0      =      1.3 : 1.0
+             neg_r(isnt) = None                4 : 0      =      1.3 : 1.0
+             has(outsid) = None                4 : 0      =      1.3 : 1.0
+             has(friend) = None                0 : 4      =      1.3 : 1.0
+             neg_r(50th) = None                0 : 4      =      1.3 : 1.0
+               has(isnt) = None                4 : 0      =      1.3 : 1.0
+               has(keep) = None                0 : 4      =      1.3 : 1.0
+             neg_l(move) = None                4 : 0      =      1.3 : 1.0
+               has(soon) = None                0 : 4      =      1.3 : 1.0
+             neg_r(even) = None                4 : 0      =      1.3 : 1.0
+               has(move) = None                4 : 0      =      1.3 : 1.0
+            neg_l(proud) = None                0 : 4      =      1.3 : 1.0
+              has(still) = None                4 : 0      =      1.3 : 1.0
+             has(number) = None                4 : 0      =      1.3 : 1.0
+                 has(go) = None                4 : 0      =      1.3 : 1.0
+                has(thi) = None                4 : 0      =      1.3 : 1.0
+             neg_r(look) = None                4 : 0      =      1.3 : 1.0
+               pos(nice) = None                0 : 4      =      1.3 : 1.0
+None
+######################
+Accuracy : 0.5
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<.>. |
+4 | 1<1>|
+--+-----+
+(row = reference; col = test)
+
+length of train tweets 8
+length of test tweets 2
+######################
+1 Step Classifier :  NaiveBayesClassifier
+Accuracy :  0.5
+######################
+Most Informative Features
+               has(hear) = 1                   0 : 4      =      2.3 : 1.0
+               has(feel) = 1                   0 : 4      =      2.3 : 1.0
+           neg_r(__hndl) = None                0 : 4      =      2.3 : 1.0
+             neg_r(hear) = 0.0                 0 : 4      =      2.3 : 1.0
+             neg_l(hear) = 0.0                 0 : 4      =      2.3 : 1.0
+           neg_l(__hndl) = None                0 : 4      =      2.3 : 1.0
+             has(__hndl) = None                0 : 4      =      2.3 : 1.0
+             neg_r(feel) = 0.0                 0 : 4      =      2.3 : 1.0
+             neg_l(feel) = 0.0                 0 : 4      =      2.3 : 1.0
+           neg_l(around) = None                4 : 0      =      1.9 : 1.0
+              neg_r(the) = None                4 : 0      =      1.9 : 1.0
+               has(like) = None                4 : 0      =      1.9 : 1.0
+              has(night) = None                4 : 0      =      1.9 : 1.0
+            neg_l(thing) = None                4 : 0      =      1.9 : 1.0
+             neg_r(camp) = None                4 : 0      =      1.9 : 1.0
+          neg_r(unknown) = None                4 : 0      =      1.9 : 1.0
+            has(unknown) = None                4 : 0      =      1.9 : 1.0
+             neg_l(like) = None                4 : 0      =      1.9 : 1.0
+             neg_r(like) = None                4 : 0      =      1.9 : 1.0
+               neg_l(go) = None                4 : 0      =      1.9 : 1.0
+            neg_r(thing) = None                4 : 0      =      1.9 : 1.0
+           neg_r(around) = None                4 : 0      =      1.9 : 1.0
+             has(around) = None                4 : 0      =      1.9 : 1.0
+          neg_l(outdoor) = None                4 : 0      =      1.9 : 1.0
+               has(camp) = None                4 : 0      =      1.9 : 1.0
+               has(miss) = None                4 : 0      =      1.9 : 1.0
+              has(thing) = None                4 : 0      =      1.9 : 1.0
+            neg_l(night) = None                4 : 0      =      1.9 : 1.0
+            neg_r(wierd) = None                4 : 0      =      1.9 : 1.0
+            has(outdoor) = None                4 : 0      =      1.9 : 1.0
+               has(hate) = None                4 : 0      =      1.9 : 1.0
+             neg_l(move) = None                4 : 0      =      1.9 : 1.0
+               has(move) = None                4 : 0      =      1.9 : 1.0
+                 has(go) = None                4 : 0      =      1.9 : 1.0
+          neg_l(unknown) = None                4 : 0      =      1.9 : 1.0
+             neg_l(hate) = None                4 : 0      =      1.9 : 1.0
+              neg_l(the) = None                4 : 0      =      1.9 : 1.0
+             neg_r(move) = None                4 : 0      =      1.9 : 1.0
+               neg_r(go) = None                4 : 0      =      1.9 : 1.0
+             neg_r(hate) = None                4 : 0      =      1.9 : 1.0
+             neg_l(miss) = None                4 : 0      =      1.9 : 1.0
+             neg_r(miss) = None                4 : 0      =      1.9 : 1.0
+             neg_l(camp) = None                4 : 0      =      1.9 : 1.0
+            neg_r(night) = None                4 : 0      =      1.9 : 1.0
+          neg_r(outdoor) = None                4 : 0      =      1.9 : 1.0
+              has(wierd) = None                4 : 0      =      1.9 : 1.0
+            neg_l(wierd) = None                4 : 0      =      1.9 : 1.0
+               has(hear) = None                4 : 0      =      1.6 : 1.0
+             neg_r(feel) = None                4 : 0      =      1.6 : 1.0
+               has(feel) = None                4 : 0      =      1.6 : 1.0
+             neg_l(hear) = None                4 : 0      =      1.6 : 1.0
+             neg_r(hear) = None                4 : 0      =      1.6 : 1.0
+             neg_l(feel) = None                4 : 0      =      1.6 : 1.0
+        has(__punc_excl) = 1                   0 : 4      =      1.4 : 1.0
+      neg_l(__punc_excl) = 0.0                 0 : 4      =      1.4 : 1.0
+      neg_r(__punc_excl) = 0.0                 0 : 4      =      1.4 : 1.0
+      neg_r(__punc_excl) = None                4 : 0      =      1.3 : 1.0
+        has(__punc_excl) = None                4 : 0      =      1.3 : 1.0
+      neg_l(__punc_excl) = None                4 : 0      =      1.3 : 1.0
+            neg_l(layer) = None                0 : 4      =      1.1 : 1.0
+               has(sore) = None                0 : 4      =      1.1 : 1.0
+             neg_r(good) = None                0 : 4      =      1.1 : 1.0
+             neg_l(soap) = None                0 : 4      =      1.1 : 1.0
+              neg_l(for) = None                0 : 4      =      1.1 : 1.0
+           neg_r(throat) = None                0 : 4      =      1.1 : 1.0
+            neg_r(proud) = None                0 : 4      =      1.1 : 1.0
+             neg_l(nice) = None                0 : 4      =      1.1 : 1.0
+        has(__punc_ellp) = None                0 : 4      =      1.1 : 1.0
+             neg_r(nice) = None                0 : 4      =      1.1 : 1.0
+               has(soup) = None                0 : 4      =      1.1 : 1.0
+              neg_l(and) = None                0 : 4      =      1.1 : 1.0
+             neg_r(soon) = None                0 : 4      =      1.1 : 1.0
+            neg_l(scrub) = None                0 : 4      =      1.1 : 1.0
+             neg_l(time) = None                0 : 4      =      1.1 : 1.0
+            neg_r(soupi) = None                0 : 4      =      1.1 : 1.0
+         neg_l(mushroom) = None                0 : 4      =      1.1 : 1.0
+           neg_r(fluffi) = None                0 : 4      =      1.1 : 1.0
+             neg_l(keep) = None                0 : 4      =      1.1 : 1.0
+              neg_r(top) = None                0 : 4      =      1.1 : 1.0
+           neg_l(actual) = None                0 : 4      =      1.1 : 1.0
+             neg_l(hope) = None                0 : 4      =      1.1 : 1.0
+               has(soap) = None                0 : 4      =      1.1 : 1.0
+          has(__punc_qu) = None                0 : 4      =      1.1 : 1.0
+           neg_r(actual) = None                0 : 4      =      1.1 : 1.0
+             neg_l(sick) = None                0 : 4      =      1.1 : 1.0
+          neg_l(varsiti) = None                0 : 4      =      1.1 : 1.0
+         neg_r(mushroom) = None                0 : 4      =      1.1 : 1.0
+             neg_l(best) = None                0 : 4      =      1.1 : 1.0
+              neg_r(bbl) = None                0 : 4      =      1.1 : 1.0
+           neg_l(better) = None                0 : 4      =      1.1 : 1.0
+             neg_r(best) = None                0 : 4      =      1.1 : 1.0
+                has(bbl) = None                0 : 4      =      1.1 : 1.0
+          neg_r(varsiti) = None                0 : 4      =      1.1 : 1.0
+              neg_l(too) = None                0 : 4      =      1.1 : 1.0
+             neg_r(pina) = None                0 : 4      =      1.1 : 1.0
+           neg_l(fluffi) = None                0 : 4      =      1.1 : 1.0
+               has(pina) = None                0 : 4      =      1.1 : 1.0
+              neg_l(ohh) = None                0 : 4      =      1.1 : 1.0
+             neg_r(with) = None                0 : 4      =      1.1 : 1.0
+      neg_l(__punc_ellp) = None                0 : 4      =      1.1 : 1.0
+None
+######################
+Accuracy : 0.5
+Confusion Matrix 
+  | 0 4 |
+--+-----+
+0 |<1>1 |
+4 | .<.>|
+--+-----+
+(row = reference; col = test)
+
+Accuracies: [0.5, 0.0, 1.0, 0.5, 0.5]
+Average Accuracy: 0.5
